@@ -1,0 +1,102 @@
+.container {
+  width: 1120px;
+  margin-top: 86px;
+  margin-left: 86px;
+  margin-left: 86px;
+  margin-bottom: 154px;
+  display: flex;
+  justify-content: center;
+}
+
+.left-side,
+.right-side {
+  width: 500px;
+}
+
+.left-side__high {
+  margin: 0;
+  margin-bottom: 110px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  color: #3751FE;
+  font-family: Roboto;
+}
+
+.left-side__heading {
+  margin: 0;
+  margin-bottom: 28px;
+  font-size: 36px;
+  line-height: 49px;
+  color: #3751FE;
+  font-family: Open Sans;
+}
+
+.left-side__text {
+  margin: 0;
+  margin-bottom: 65px;
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.travel-form__email-text {
+  display: none;
+}
+
+.travel-form__email-input,
+.travel-form__password-input {
+  width: 430px;
+  height: 50px;
+  display: block;
+  padding: 12px 27px;
+  border: 3px solid #C1BBBB;
+  transition: ease 0.3s all;
+}
+
+.travel-form__email-input:hover,
+.travel-form__password-input:hover {
+  border-left: 3px solid #0C31F1;
+}
+
+.travel-form__password-input {
+  border-top: 0;
+  margin-bottom: 21px;
+}
+
+.travel-form__text {
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.61);
+  margin-left: auto;
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 72px;
+}
+
+.button__login {
+  margin-right: 33px;
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  width: 129px;
+  height: 54px;
+  background-color: #3751FE;
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
+  border: 0;
+}
+
+.button__signup {
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 21px;
+  color: #0C31F1;
+  width: 129px;
+  height: 54px;
+  background: #FFFFFF;
+  border: 1px solid #3751FE;
+}

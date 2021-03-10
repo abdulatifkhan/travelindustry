@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Travel Industry</title>
+  <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
 
@@ -23,18 +24,23 @@
 
           <label class="travel-form__email-label" for="email">
             <span class="travel-form__email-text">Email section</span>
-            <input class="travel-form__email-input" id="email" type="email">
+            <input class="travel-form__email-input" id="email" type="email" placeholder="Email Address" autocomplete="off" name="email">
           </label>
 
           <label class="travel-form__password-label" for="password">
-            <input class="travel-form__password-input" id="password" type="password">
+            <input class="travel-form__password-input" id="password" type="password" placeholder="Password" name="password">
           </label>
 
-          <div class="travel-form__button-label">
+          <div class="travel-form__text">
+            <span>Remember me</span>
+            <span>Forgot Password?</span>
+          </div>
 
-            <button class="">Login</button>
+          <div class="travel-form__button-label button">
 
-            <button>Sign Up</button>
+            <button class="button__login">Login</button>
+
+            <button class="button__signup">Sign Up</button>
 
           </div>
 
@@ -49,7 +55,7 @@
            <li class="footer__li">Google</li>
          </ul>
 
-         <img class="travel__img" width="839" height="428" src="img/cycle.png" alt="" srcset="img/cycle.png 1x, img/cycle@2x.png 2x">
+         
 
        </footer><!-- travel__footer footer -->
 
@@ -59,8 +65,11 @@
 
         <header class="travel__header header">
 
+          <nav></nav>
 
         </header><!-- travel__header header -->
+
+        <img class="travel__img" width="839" height="428" src="img/cycle.png" alt="" srcset="img/cycle.png 1x, img/cycle@2x.png 2x">
 
       </div><!-- travel-container__right-side right-side -->
 
