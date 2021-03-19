@@ -163,7 +163,6 @@
   text-align: center;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.61);
-  transition: ease 0.5s all;
 }
 
 .travel__link:hover {
