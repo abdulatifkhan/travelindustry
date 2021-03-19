@@ -1,9 +1,9 @@
 .container {
   width: 1120px;
-  margin-top: 86px;
-  margin-left: 86px;
-  margin-left: 86px;
-  margin-bottom: 154px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
@@ -15,7 +15,7 @@
 
 .left-side__high {
   margin: 0;
-  margin-bottom: 110px;
+  margin-bottom: 60px;
   font-weight: bold;
   font-size: 30px;
   line-height: 35px;
@@ -60,6 +60,11 @@
   border-left: 3px solid #0C31F1;
 }
 
+.travel-form__email-input:focus,
+.travel-form__password-input:focus {
+  outline: none;
+}
+
 .travel-form__password-input {
   border-top: 0;
   margin-bottom: 21px;
@@ -77,8 +82,11 @@
   margin-bottom: 72px;
 }
 
-.button__login {
-  margin-right: 33px;
+.button__form ~ .button__form {
+  margin-left: 33px;
+}
+
+.button__form {
   font-family: Roboto;
   font-size: 18px;
   line-height: 21px;
@@ -88,15 +96,91 @@
   background-color: #3751FE;
   box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
   border: 0;
+  transition: ease 0.5s all;
 }
 
-.button__signup {
-  font-family: Roboto;
-  font-size: 18px;
-  line-height: 21px;
+.button__form:hover {
   color: #0C31F1;
-  width: 129px;
-  height: 54px;
   background: #FFFFFF;
   border: 1px solid #3751FE;
+}
+
+.travel__footer {
+  margin-top: 72px;
+}
+
+.footer-ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer__li ~ .footer__li {
+  margin-left: 50px;
+}
+
+.footer__link {
+  width: 105px;
+  color: rgba(0, 0, 0, 0.61);
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 21px;
+  transition: ease 0.5s all;
+}
+
+.footer__link:hover {
+  font-weight: bold;
+  color: #3751fe;
+}
+
+.travel__nav {
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.travel__ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.travel__li {
+  width: 59px;
+}
+
+.travel__li ~ .travel__li {
+  margin-left: 30px;
+}
+
+.travel__link {
+  padding-bottom: 8px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.61);
+  transition: ease 0.5s all;
+}
+
+.travel__link:hover {
+  padding-bottom: 5px;
+  border-bottom: 3px solid #3751FE;
+} 
+
+.travel__box {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.travel__img {
+  margin-top: 50px;
+  margin-left: -100px;
+  margin-right: -100px;
+  width: 775px;
+  height: 428px;
 }
